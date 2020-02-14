@@ -93,8 +93,8 @@ text.big { font-size:14px; }
 text.nubkey { fill: #eee; }
 
 .pressed {
-  opacity: 0.5;
-  fill: #555;
+  opacity: 0.33;
+  fill: #a55eea;
 }
 </style>
     <g id="basekey">
