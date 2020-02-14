@@ -1,19 +1,20 @@
-pdf:
+pdf: 
+	mkdir -p dist
 	for loopi in {1..6}; do \
-		chromium --headless --disable-gpu --print-to-pdf=bone_e$$loopi.pdf bone_e$$loopi.svg; \
-		pdfcrop --margins '-1 -10 -154 -610' bone_e$$loopi.pdf bone_e$$loopi.pdf; \
+		chromium --headless --disable-gpu --print-to-pdf=dist/bone_e$$loopi.pdf bone_e$$loopi.svg; \
+		pdfcrop --margins '-1 -10 -154 -610' dist/bone_e$$loopi.pdf dist/bone_e$$loopi.pdf; \
 	done
-	pdfunite bone_e*.pdf bone-layout.pdf
+	pdfunite dist/bone_e*.pdf bone_layout.pdf
 
 png: pdf
 	for loopi in {1..6}; do \
-		convert -density 300 bone_e$$loopi.pdf bone_e$$loopi.png; \
+		convert -density 300 dist/bone_e$$loopi.pdf dist/bone_e$$loopi.png; \
 	done
 
 all: png
 
 clean:
-	rm *.png
-	rm *.pdf
+	rm dist/*.png
+	rm dist/*.pdf
 
 .PHONY: all pdf png clean
