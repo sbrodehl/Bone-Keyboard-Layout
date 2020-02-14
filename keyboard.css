@@ -35,14 +35,13 @@ text.big { font-size:14px; }
 	stroke-width: 1.25;
 }
 
-.grey { fill: #949494; stroke: #696969; }
-.grey { fill: #9f9f9f; stroke: #747474; }
+.grey { fill: rgb(95, 124, 138); stroke:rgb(55, 64, 70); }
 
 /* bootstrap colors */
-.l2, .r2 { fill: #337ab7; }
-.l3, .r3 { fill: #5cb85c; }
-.l4, .r4 { fill: #d9534f; }
-.l5, .r5 { fill: #f0ad4e; }
+.l2, .r2 { fill: rgb(33, 149, 242); }
+.l3, .r3 { fill: rgb(138, 194, 73); }
+.l4, .r4 { fill: rgb(243, 66, 54); }
+.l5, .r5 { fill: rgb(255, 193, 7); }
 
 /* btn bg hover, unused */
 .l2, .r2 { stroke: #3071a9; }
