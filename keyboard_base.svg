@@ -33,12 +33,72 @@
 
 <defs id="defs">
 <style type="text/css">
-@import url('keyboard.css');
+text.mod, text.key, text.dead {
+  fill:#111;
+  fill-opacity:1;
+  stroke:none;
+  font-style:normal;
+  font-variant:normal;
+  font-weight:normal;
+  font-stretch:normal;
+  display:inline;
+  font-family:DejaVu Sans;
+  writing-mode:lr-tb;
+}
+
+text.key {
+  font-family: Linux Libertine O,Linux Libertine;
+}
+
+text.mod {
+  text-align: start;
+  text-anchor: start;
+}
+
+text.deadcircle, text.dead, text.center, text.key {
+  text-align: center;
+  text-anchor: middle;
+}
+
+text.key { font-size:22px; }
+text.dead { font-size:20px; }
+text.deadcircle { font-size:14px; }
+text.mod { font-size:10px; }
+text.big { font-size:14px; }
+
+.key {
+  stroke-width: 1.25;
+}
+
+.grey { fill: #5F7C8A; stroke: #374046; }
+
+/* bootstrap colors */
+.l2, .r2 { fill: #2195F2; }
+.l3, .r3 { fill: #8AC249; }
+.l4, .r4 { fill: #F34236; }
+.l5, .r5 { fill: #FFC107; }
+
+/* btn bg hover, unused */
+.l2, .r2 { stroke: #3071a9; }
+.l3, .r3 { stroke: #449d44; }
+.l4, .r4 { stroke: #c9302c; }
+.l5, .r5 { stroke: #ec971f; }
+
+/* btn border hover */
+.l2, .r2 { stroke: #204d74; }
+.l3, .r3 { stroke: #398439; }
+.l4, .r4 { stroke: #ac2925; }
+.l5, .r5 { stroke: #d58512; }
+
+text.nubkey { fill: #eee; }
+
+.pressed {
+  opacity: 0.5;
+  fill: #555;
+}
 </style>
     <g id="basekey">
         <rect width="32" height="32" rx="4" class="key" />
-	<!--rect width="20" height="20" x="6" y="6" /-->
-        <!--rect width="2" height="2" fill="#000" x="15" y="15" /-->
     </g>
 
     </defs>
