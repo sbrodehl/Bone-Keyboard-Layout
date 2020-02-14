@@ -90,49 +90,49 @@
 <text x="10" y="60" class="mod big">⇥</text>
 
 <g transform="translate(72,62)">
-	<text x="0" class="key">ξ</text>
-	<text x="36" class="key"></text>
+	<text x="0" class="key">θ</text>
+	<text x="36" class="key">δ</text>
 	<text x="72" class="key">λ</text>
-	<text x="108" class="key">χ</text>
-	<text x="144" class="key">ω</text>
+	<text x="108" class="key">α</text>
+	<text x="144" class="key">ξ</text>
 
-	<text x="180" class="key">κ</text>
+	<text x="180" class="key">π</text>
 	<text x="216" class="key">ψ</text>
-	<text x="252" class="key">γ</text>
-	<text x="288" class="key">φ</text>
-	<text x="324" class="key">ϕ</text>
+	<text x="252" class="key">λ</text>
+	<text x="288" class="key">μ</text>
+	<text x="324" class="key">ω</text>
 	<text x="360" class="key">ς</text>
 </g>
 
 
 <g transform="translate(84,98)">
-	<text x="0" class="key"></text>
-	<text x="36" class="key">ι</text>
-	<text x="72" class="key">α</text>
+	<text x="0" class="key">χ</text>
+	<text x="36" class="key">τ</text>
+	<text x="72" class="key">ι</text>
 	<text x="108" class="key nubkey">ε</text>
 	<text x="144" class="key">ο</text>
 
-	<text x="180" class="key">σ</text>
+	<text x="180" class="key">β</text>
 	<text x="216" class="key nubkey">ν</text>
 	<text x="252" class="key">ρ</text>
-	<text x="288" class="key">τ</text>
-	<text x="324" class="key">δ</text>
-	<text x="360" class="key">υ</text>
+	<text x="288" class="key">σ</text>
+	<text x="324" class="key">γ</text>
+	<text x="360" class="key">ϕ</text>
 </g>
 
 
 <g transform="translate(101,134)">
-	<text x="0" class="key"></text>
+	<text x="0" class="key">φ</text>
 	<text x="36" class="key">ϵ</text>
 	<text x="72" class="key">η</text>
-	<text x="108" class="key">π</text>
-	<text x="144" class="key">ζ</text>
+	<text x="108" class="key">η</text>
+	<text x="144" class="key">ϵ</text>
 
-	<text x="180" class="key">β</text>
-	<text x="216" class="key">μ</text>
+	<text x="180" class="key">υ</text>
+	<text x="216" class="key">ζ</text>
 	<text x="252" class="key">ϱ</text>
 	<text x="288" class="key">ϑ</text>
-	<text x="324" class="key">θ</text>
+	<text x="324" class="key">κ</text>
 </g>
 
 <text x="264.5" y="168" class="mod center" id="spacetxt">geschütztes Leerz. ⍽</text>
