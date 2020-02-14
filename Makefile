@@ -12,4 +12,8 @@ png: pdf
 
 all: png
 
-.PHONY: all pdf png
+clean:
+	rm *.png
+	rm *.pdf
+
+.PHONY: all pdf png clean
