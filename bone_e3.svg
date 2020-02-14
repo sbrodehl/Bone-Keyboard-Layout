@@ -33,6 +33,9 @@
 <style type="text/css">
 @import url('keyboard.css');
 </style>
+    <g id="basekey">
+        <rect width="32" height="32" rx="4" class="key" />
+    </g>
 </defs>
 <sodipodi:namedview
      pagecolor="#ffffff"
@@ -56,6 +59,11 @@
      inkscape:current-layer="Ebene_1" />
 
 <image sodipodi:absref="keyboard_base.svg" xlink:href="keyboard_base.svg" y="0" x="0" />
+
+<g transform="translate(3.5,3.5)">
+<use xlink:href="#basekey" y="0" x="0" class="l5" />
+<use xlink:href="#basekey" y="36" x="450" class="r5" />
+</g>
 
 <g transform="translate(55,26)">
 	<text x="0" class="key">¹</text>
