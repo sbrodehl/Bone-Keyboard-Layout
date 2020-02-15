@@ -82,56 +82,56 @@
 	<text x="252" class="key">∞</text>
 	<text x="288" class="key">∝</text>
 	<text x="324" class="key">∅</text>
-	<text x="360" class="key">╌</text>
+	<text x="360" class="key">­</text>
 </g>
 
 
 <text x="10" y="60" class="mod big">⇥</text>
 
 <g transform="translate(72,62)">
-	<text x="0" class="key">Ξ</text>
-	<text x="36" class="key">√</text>
-	<text x="72" class="key">Λ</text>
-	<text x="108" class="key">ℂ</text>
-	<text x="144" class="key">Ω</text>
+	<text x="0" class="key">Θ</text>
+	<text x="36" class="key">Δ</text>
+	<text x="72" class="key">⊂</text>
+	<text x="108" class="key">∀</text>
+	<text x="144" class="key">Ξ</text>
 
-	<text x="180" class="key">×</text>
+	<text x="180" class="key">Π</text>
 	<text x="216" class="key">Ψ</text>
-	<text x="252" class="key">Γ</text>
-	<text x="288" class="key">Φ</text>
-	<text x="324" class="key">ℚ</text>
+	<text x="252" class="key">Λ</text>
+	<text x="288" class="key">⇔</text>
+	<text x="324" class="key">Ω</text>
 	<text x="360" class="key">∘</text>
 </g>
 
 
 <g transform="translate(84,98)">
-	<text x="0" class="key">⊂</text>
-	<text x="36" class="key">∫</text>
-	<text x="72" class="key">∀</text>
+	<text x="0" class="key">ℂ</text>
+	<text x="36" class="key">∂</text>
+	<text x="72" class="key">∫</text>
 	<text x="108" class="key nubkey">∃</text>
 	<text x="144" class="key">∈</text>
 
-	<text x="180" class="key">Σ</text>
+	<text x="180" class="key">⇐</text>
 	<text x="216" class="key nubkey">ℕ</text>
 	<text x="252" class="key">ℝ</text>
-	<text x="288" class="key">∂</text>
-	<text x="324" class="key">Δ</text>
-	<text x="360" class="key">∇</text>
+	<text x="288" class="key">Σ</text>
+	<text x="324" class="key">Γ</text>
+	<text x="360" class="key">ℚ</text>
 </g>
 
 
 <g transform="translate(101,134)">
-	<text x="0" class="key">∪</text>
-	<text x="36" class="key">∩</text>
-	<text x="72" class="key">ℵ</text>
-	<text x="108" class="key">Π</text>
-	<text x="144" class="key">ℤ</text>
+	<text x="0" class="key">Φ</text>
+	<text x="36" class="key">√</text>
+	<text x="72" class="key">∪</text>
+	<text x="108" class="key">ℵ</text>
+	<text x="144" class="key">∩</text>
 
-	<text x="180" class="key">⇐</text>
-	<text x="216" class="key">⇔</text>
+	<text x="180" class="key">∇</text>
+	<text x="216" class="key">ℤ</text>
 	<text x="252" class="key">⇒</text>
 	<text x="288" class="key">↦</text>
-	<text x="324" class="key">Θ</text>
+	<text x="324" class="key">×</text>
 </g>
 
 <text x="264.5" y="168" class="mod center" id="spacetxt">schmales gesch. Leerz. ␣</text>
